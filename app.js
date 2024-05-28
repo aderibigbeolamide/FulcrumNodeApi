@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.post('/Createtodos', (req, res) => {
+app.post('/create', (req, res) => {
     const { text } = req.body;
     const newTodo = { id: uuidv4(), text, isCompleted: false };
     todos.push(newTodo);
