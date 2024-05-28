@@ -10,7 +10,7 @@
 # Here is the list of the API endpoints
 
 Create todos
- https://your-service-name.onrender.com/todos (POST)
+ https://your-service-name.onrender.com/Createtodos (POST)
 
 Get all todos
     https://your-service-name.onrender.com/todos (GET)
